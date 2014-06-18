@@ -403,3 +403,21 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+.cover-wrapper {
+  /*background: #ad1100;*/
+  background: url(../images/ruby.png) #ad1100 no-repeat 0 0;
+  height: 150px;
+}
+
+.cover-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cover-inner .title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 150px;
+}
