@@ -5,11 +5,11 @@ layout: default
 
   <header class="post-header">
     <h1>{{ page.title }}</h1>
-    <p class="meta">
+    <div class="meta">
       {% if page.author %} <a href="{{ page.author-link }}" target="_blank"> {{ page.author }} </a> {% endif %}
       {{ page.date | date: "%b %-d, %Y" }}
       {% if page.meta %} • {{ page.meta }}{% endif %}
-    </p>
+    </div>
   </header>
 
   <article class="post-content">
@@ -17,3 +17,7 @@ layout: default
   </article>
 
 </div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.username }}">Tweet</a>
+<!-- Put this just before the closing body tag -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
