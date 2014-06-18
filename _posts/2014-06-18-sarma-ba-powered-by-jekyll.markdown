@@ -56,6 +56,16 @@ $ jekyll server --watch
 Pokrece lokalni server, prati izmjene i automatski rekreira nove stranice.
 Nakon svake izmjene `_config.yml` potrebno je ponovo pokrenuti server.
 
+### Twitter Share
+
+U `_config.yml` dodati `twitter_username: [vas twitter handle]` i na kraju `_layouts/post.html` dodati: 
+
+~~~
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.username }}">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+~~~
+
+
 [jekyll]:    http://jekyllrb.com
 [github-pg]: https://github.io
 [author-name]: mribica
