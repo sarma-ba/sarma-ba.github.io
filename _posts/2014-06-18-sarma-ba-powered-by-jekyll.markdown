@@ -67,6 +67,6 @@ U `_config.yml` dodati `twitter_username: [vas twitter handle]` i na kraju `_lay
 
 
 [jekyll]:    http://jekyllrb.com
-[github-pg]: https://github.io
+[github-pg]: https://pages.github.com
 [author-name]: mribica
 [author-link]: https://twitter.com/mribica
