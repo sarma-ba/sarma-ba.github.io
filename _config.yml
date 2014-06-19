@@ -9,6 +9,7 @@ url: "http://sarma.ba"
 twitter: "https://twitter.com/sarma_ba"
 github: "https://github.com/sarma-ba"
 agenda: "http://t.co/9Fq8FfL62A"
+ga_ua: "UA-467461-12"
 
 # Build settings
 markdown: kramdown
