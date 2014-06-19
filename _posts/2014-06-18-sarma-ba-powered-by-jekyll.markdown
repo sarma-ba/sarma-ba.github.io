@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sarma.ba je live. Powered by Jekyll and Github Pages!"
+title:  "Sarma.ba je live! Powered by Jekyll and Github Pages."
 author: "mribica"
 author-link: "https://twitter.com/mribica"
 date:   2014-06-18 14:24:41
